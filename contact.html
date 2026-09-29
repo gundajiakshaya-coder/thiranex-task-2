@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Contact Akshaya Gundaji through the accessible portfolio contact form.">
+
+    <meta name="author"
+          content="Akshaya Gundaji">
+
+    <title>Contact | Akshaya Gundaji</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav aria-label="Main navigation">
+
+            <h1>Akshaya Gundaji</h1>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" aria-current="page">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section aria-labelledby="contact-heading">
+
+            <h2 id="contact-heading">Contact Me</h2>
+
+            <p>
+                Feel free to send me a message.
+            </p>
+
+            <form action="#" method="post" aria-label="Contact form">
+
+                <div>
+                    <label for="name">Full Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        required
+                        aria-required="true">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                        aria-required="true">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="subject">Subject</label>
+
+                    <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        required
+                        aria-required="true"></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Akshaya Gundaji. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
